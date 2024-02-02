@@ -1,12 +1,13 @@
 import 'package:dropdown_button2/dropdown_button2.dart';
 import 'package:flutter/material.dart';
-import 'package:dropdown_search/dropdown_search.dart';
 
+// ignore: must_be_immutable
 class CustomDropButton extends StatefulWidget {
   final List<String> data2;
   String selectedcoin;
 
   CustomDropButton({
+    super.key,
     required this.data2,
     required this.selectedcoin,
   });
